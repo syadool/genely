@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AEF17DFA297F5838000604F0 /* genelyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF17DF9297F5838000604F0 /* genelyApp.swift */; };
+		AEF17DFC297F5838000604F0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF17DFB297F5838000604F0 /* ContentView.swift */; };
+		AEF17DFE297F583A000604F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEF17DFD297F583A000604F0 /* Assets.xcassets */; };
+		AEF17E01297F583A000604F0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEF17E00297F583A000604F0 /* Preview Assets.xcassets */; };
+		AEF17E0B297F583A000604F0 /* genelyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF17E0A297F583A000604F0 /* genelyTests.swift */; };
+		AEF17E15297F583A000604F0 /* genelyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF17E14297F583A000604F0 /* genelyUITests.swift */; };
+		AEF17E17297F583A000604F0 /* genelyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF17E16297F583A000604F0 /* genelyUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AEF17E07297F583A000604F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEF17DEE297F5838000604F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEF17DF5297F5838000604F0;
+			remoteInfo = genely;
+		};
+		AEF17E11297F583A000604F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEF17DEE297F5838000604F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEF17DF5297F5838000604F0;
+			remoteInfo = genely;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AEF17DF6297F5838000604F0 /* genely.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = genely.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEF17DF9297F5838000604F0 /* genelyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = genelyApp.swift; sourceTree = "<group>"; };
+		AEF17DFB297F5838000604F0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AEF17DFD297F583A000604F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AEF17E00297F583A000604F0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AEF17E06297F583A000604F0 /* genelyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = genelyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEF17E0A297F583A000604F0 /* genelyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = genelyTests.swift; sourceTree = "<group>"; };
+		AEF17E10297F583A000604F0 /* genelyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = genelyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEF17E14297F583A000604F0 /* genelyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = genelyUITests.swift; sourceTree = "<group>"; };
+		AEF17E16297F583A000604F0 /* genelyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = genelyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AEF17DF3297F5838000604F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEF17E03297F583A000604F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEF17E0D297F583A000604F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AEF17DED297F5838000604F0 = {
+			isa = PBXGroup;
+			children = (
+				AEF17DF8297F5838000604F0 /* genely */,
+				AEF17E09297F583A000604F0 /* genelyTests */,
+				AEF17E13297F583A000604F0 /* genelyUITests */,
+				AEF17DF7297F5838000604F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AEF17DF7297F5838000604F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEF17DF6297F5838000604F0 /* genely.app */,
+				AEF17E06297F583A000604F0 /* genelyTests.xctest */,
+				AEF17E10297F583A000604F0 /* genelyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AEF17DF8297F5838000604F0 /* genely */ = {
+			isa = PBXGroup;
+			children = (
+				AEF17DF9297F5838000604F0 /* genelyApp.swift */,
+				AEF17DFB297F5838000604F0 /* ContentView.swift */,
+				AEF17DFD297F583A000604F0 /* Assets.xcassets */,
+				AEF17DFF297F583A000604F0 /* Preview Content */,
+			);
+			path = genely;
+			sourceTree = "<group>";
+		};
+		AEF17DFF297F583A000604F0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AEF17E00297F583A000604F0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AEF17E09297F583A000604F0 /* genelyTests */ = {
+			isa = PBXGroup;
+			children = (
+				AEF17E0A297F583A000604F0 /* genelyTests.swift */,
+			);
+			path = genelyTests;
+			sourceTree = "<group>";
+		};
+		AEF17E13297F583A000604F0 /* genelyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AEF17E14297F583A000604F0 /* genelyUITests.swift */,
+				AEF17E16297F583A000604F0 /* genelyUITestsLaunchTests.swift */,
+			);
+			path = genelyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AEF17DF5297F5838000604F0 /* genely */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEF17E1A297F583A000604F0 /* Build configuration list for PBXNativeTarget "genely" */;
+			buildPhases = (
+				AEF17DF2297F5838000604F0 /* Sources */,
+				AEF17DF3297F5838000604F0 /* Frameworks */,
+				AEF17DF4297F5838000604F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = genely;
+			productName = genely;
+			productReference = AEF17DF6297F5838000604F0 /* genely.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AEF17E05297F583A000604F0 /* genelyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEF17E1D297F583A000604F0 /* Build configuration list for PBXNativeTarget "genelyTests" */;
+			buildPhases = (
+				AEF17E02297F583A000604F0 /* Sources */,
+				AEF17E03297F583A000604F0 /* Frameworks */,
+				AEF17E04297F583A000604F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEF17E08297F583A000604F0 /* PBXTargetDependency */,
+			);
+			name = genelyTests;
+			productName = genelyTests;
+			productReference = AEF17E06297F583A000604F0 /* genelyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AEF17E0F297F583A000604F0 /* genelyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEF17E20297F583A000604F0 /* Build configuration list for PBXNativeTarget "genelyUITests" */;
+			buildPhases = (
+				AEF17E0C297F583A000604F0 /* Sources */,
+				AEF17E0D297F583A000604F0 /* Frameworks */,
+				AEF17E0E297F583A000604F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEF17E12297F583A000604F0 /* PBXTargetDependency */,
+			);
+			name = genelyUITests;
+			productName = genelyUITests;
+			productReference = AEF17E10297F583A000604F0 /* genelyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AEF17DEE297F5838000604F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					AEF17DF5297F5838000604F0 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					AEF17E05297F583A000604F0 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = AEF17DF5297F5838000604F0;
+					};
+					AEF17E0F297F583A000604F0 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = AEF17DF5297F5838000604F0;
+					};
+				};
+			};
+			buildConfigurationList = AEF17DF1297F5838000604F0 /* Build configuration list for PBXProject "genely" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AEF17DED297F5838000604F0;
+			productRefGroup = AEF17DF7297F5838000604F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AEF17DF5297F5838000604F0 /* genely */,
+				AEF17E05297F583A000604F0 /* genelyTests */,
+				AEF17E0F297F583A000604F0 /* genelyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AEF17DF4297F5838000604F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEF17E01297F583A000604F0 /* Preview Assets.xcassets in Resources */,
+				AEF17DFE297F583A000604F0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEF17E04297F583A000604F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEF17E0E297F583A000604F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AEF17DF2297F5838000604F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEF17DFC297F5838000604F0 /* ContentView.swift in Sources */,
+				AEF17DFA297F5838000604F0 /* genelyApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEF17E02297F583A000604F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEF17E0B297F583A000604F0 /* genelyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEF17E0C297F583A000604F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEF17E17297F583A000604F0 /* genelyUITestsLaunchTests.swift in Sources */,
+				AEF17E15297F583A000604F0 /* genelyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AEF17E08297F583A000604F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AEF17DF5297F5838000604F0 /* genely */;
+			targetProxy = AEF17E07297F583A000604F0 /* PBXContainerItemProxy */;
+		};
+		AEF17E12297F583A000604F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AEF17DF5297F5838000604F0 /* genely */;
+			targetProxy = AEF17E11297F583A000604F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AEF17E18297F583A000604F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AEF17E19297F583A000604F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AEF17E1B297F583A000604F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"genely/Preview Content\"";
+				DEVELOPMENT_TEAM = YBW3V2VWS7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = syadool.genely;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AEF17E1C297F583A000604F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"genely/Preview Content\"";
+				DEVELOPMENT_TEAM = YBW3V2VWS7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = syadool.genely;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AEF17E1E297F583A000604F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YBW3V2VWS7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = syadool.genelyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/genely.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/genely";
+			};
+			name = Debug;
+		};
+		AEF17E1F297F583A000604F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YBW3V2VWS7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = syadool.genelyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/genely.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/genely";
+			};
+			name = Release;
+		};
+		AEF17E21297F583A000604F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YBW3V2VWS7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = syadool.genelyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = genely;
+			};
+			name = Debug;
+		};
+		AEF17E22297F583A000604F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YBW3V2VWS7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = syadool.genelyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = genely;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AEF17DF1297F5838000604F0 /* Build configuration list for PBXProject "genely" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEF17E18297F583A000604F0 /* Debug */,
+				AEF17E19297F583A000604F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEF17E1A297F583A000604F0 /* Build configuration list for PBXNativeTarget "genely" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEF17E1B297F583A000604F0 /* Debug */,
+				AEF17E1C297F583A000604F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEF17E1D297F583A000604F0 /* Build configuration list for PBXNativeTarget "genelyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEF17E1E297F583A000604F0 /* Debug */,
+				AEF17E1F297F583A000604F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEF17E20297F583A000604F0 /* Build configuration list for PBXNativeTarget "genelyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEF17E21297F583A000604F0 /* Debug */,
+				AEF17E22297F583A000604F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AEF17DEE297F5838000604F0 /* Project object */;
+}
